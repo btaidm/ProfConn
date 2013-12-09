@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mac Access</title>
+    <link rel="shortcut icon" href="images/1384316097_56186.ico" type="image/x-icon" />
+    <meta charset="utf-8">
+    <meta name="keywords" content="mtu, multidrive, vpn, michigan tech, home">
+    <meta name="description" content="Instructions for MTU students to access their 
+	school files from an off-campus location">
+    <link rel="stylesheet" type="text/css" href="template/style.css">
+    <link href="template/jquery-ui-1.10.3.custom.css" rel="stylesheet">
+    <script src="js/jquery-1.9.1.js"></script>
+    <script src="js/jquery-ui-1.10.3.custom.js"></script>
+    <script src="js/jquery-notaccordion.js"></script>
+    <script>
+        $(function() {
+            $("#notaccordion").multiAccordion();
+        });
+    </script>
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-45725556-1', 'mtu.edu');
+        ga('send', 'pageview');
+    </script>
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <header id="banner">
+            <h1>Access your Home Drive from OS X!</h1>
+            <a href="http://www.mtu.edu">
+                <img src="images/mtulogo.png" alt="MTU Logo">
+            </a>
+        </header>
+        <main>
+            <div id="notaccordion">
+                <h3>Step 1 - Setting Up Software</h3>
+                <div>
+                    <ul>
+                        <li>Open either Safari or Firefox</li>
+                        <li>Go to
+                            <a href="http://vpn.mtu.edu">vpn.mtu.edu</a>
+                            <br>
+                            <img id="instuctionimg" src="images/mac/Multi-1.png">
+                        </li>
+                        <li>Enter your Michigan Tech ISO username and password
+                            <br>
+                            <img id="instuctionimg" src="images/mac/Multi-2.png">
+                        </li>
+                        <li>Click "Get an MTU address"
+                            <br>
+                            <img id="instuctionimg" src="images/mac/Multi-3.png">
+                        </li>
+                        <li>A Window will appear that will say: "Installing Network Access for the first time"
+                            <br>
+                            <img id="instuctionimg" src="images/mac/Multi-4.png">
+                        </li>
+                        <li>Download the standalone installer</li>
+                        <li>Go to Download folder, and open the file. This will Extract a file called "mac_sslvpn.pkg". Click the new file
+                            <br>
+                            <img id="instuctionimg" src="images/mac/Multi-5.png">
+                        </li>
+                        <li>Installer will open. Install the package.
+                            <br>
+                            <img id="instuctionimglong" src="images/mac/Multi-6.png">
+                            <img id="instuctionimglong" src="images/mac/Multi-7.png">
+                            <img id="instuctionimglong" src="images/mac/Multi-8.png">
+                        </li>
+                        <li>Quit your webrowser completely. Press Command(&#x2318;)-Q.</li>
+                    </ul>
+
+
+                </div>
+                <h3>Step 2 - Connecting to Michigan Tech</h3>
+
+                <div>
+                    <ul>
+                        <li>Open either Safari or Firefox</li>
+                        <li>Go to
+                            <a href="http://vpn.mtu.edu">vpn.mtu.edu</a>
+                        </li>
+                        <li>Enter your Michigan Tech ISO username and password</li>
+                        <li>Click "Get an MTU address
+                            <ul>
+                                <li>This will open a small window like last time, however this time the window connect to Michigan Tech</li>
+                            </ul>
+                            <img id="instuctionimg" src="images/mac/Multi-9.png">
+                        </li>
+                        <li>Wait until the status says "Connected"</li>
+                        <li>Leave that window open; if you close it, you will lose your connect to the Michigan Tech Network. Minimizing the window will not affect the connection, you just cannot close out the window.</li>
+                    </ul>
+                </div>
+
+                <h3>Step 3 - Connecting to the Home Drive</h3>
+                <div>
+                    <ul>
+                        <li>
+                            Open Finder
+                        </li>
+                        <li>
+                            On the top bar, click "Go", then "Connect to Server"
+                            <ul>
+                                <li>This can be done by pressing &#x2318;-K</li>
+                            </ul>
+                            <img id="instuctionimg" src="images/mac/Multi-11.png">
+                        </li>
+                        <li>
+                            In the Server Address field, type: "smb://multidrive.iso.mtu.edu"
+                            <br>
+                            <img id="instuctionimg" src="images/mac/Multi-12.png">
+                        </li>
+                        <li>Type in your Michigan Tech Username and Password
+                            <ul>
+                                <li>Your Username should be preceded by "MTU\"</li>
+                            </ul>
+
+                            <img id="instuctionimg" src="images/mac/Multi-13.png">
+                        </li>
+                        <li>A Window will apper asking you what volume to mount, selct "macmulti"
+                            <br>
+                            <img id="instuctionimg" src="images/mac/Multi-14.png">
+                        </li>
+                        <li>
+                            After that is mounted, you should see a window with a icon called "multidrivemounter-1.dmg". Click the icon.
+                            <br>
+                            <img id="instuctionimg" src="images/mac/Multi-15.png">
+                        </li>
+                        <li>
+                            Another window will open containing a README and a Package called "Multidrive Mounter." Drag the Package to your desktop. Click on it.
+                            <br>
+                            <img id="instuctionimg" src="images/mac/Multi-16a.png">
+                        </li>
+                        <li>
+                            You will be prompted for your MTU Username. This will
+                            <strong style=" text-decoration:underline;font-size:1.025em">
+                                <em>NOT</em>
+                            </strong>
+                            <a style=" text-decoration:none;">contain the "MTU\"</a>
+                        </li>
+                        <li>
+                            A Window will pop up, this will contain various drive names, select mtucifs_home and press OK.
+                            <br>
+                            <img id="instuctionimg" src="images/mac/Multi-16b.png">
+                        </li>
+                        <li>
+                            You are now connected to your home drive. Use Finder to navigate to your drive
+                        </li>
+                    </ul>
+                </div>
+                <h3>Connecting to the Home Drive afterwords</h3>
+                <div>
+                    <ul>
+                        <li>
+                            Connect to the Michigan Tech Network following the steps from step 2.</li>
+                        <li>
+                            Use the Multidrive Mounter to connect to mtucifs_home. This time it will ask you for your password. You can select for your computer to remember your password.
+                        </li>
+                        <li>
+                            You are now connected to your home drive. Use Finder to navigate to your drive
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <a href="index.html">Home</a>
+            &copy; 2013 Team AwesomeSocks
+        </footer>
+
+    </div>
+
+</body>
+
+</html>

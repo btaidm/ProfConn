@@ -92,19 +92,25 @@
                             <br>
                             <img id="instuctionimg" src="images/win7/win7_11.png" alt="F5 Shortcut">
                         </li>
-                        <li>F5 will ask you to select Firepass Controller. Type in: vpn.mtu.edu
+                        <li>F5 will ask you to <b>select Firepass Controller</b>.
+                            <ul>
+                                <li>It should <b>already have <i>"vpn.mtu.edu"</i> entered.</b> If it doesn't, then enter <b><i>vpn.mtu.edu</i></b> in that field.</li>
+                            </ul>
                             <br>
                             <img id="instuctionimg" src="images/win7/win7_12.png" alt="Firepass Controller">
                         </li>
-                        <li>It will then ask you for your Michigan Tech username and password again. Enter those.
+                        <li>Enter your Michigan Tech <b>username and password.</b>
                             <br>
                             <img id="instuctionimg" src="images/win7/win7_13.png" alt="Logging in">
                         </li>
-                        <li>After that, go to the folder list on the left. Under “Network Access Controls,” select “Obtain a campus address with MTUCIFS WINS settings (override local WINS settings)” and click the “Create” button
+                        <li>Go to the <b>folder list on the left</b>. Under <b><i>“Network Access Controls,”</i></b> select <b><i>“Get an MTU address”</i></b> and click the <b><i>“Create”</i></b> button
                             <br>
                             <img id="instuctionimg" src="images/win7/win7_14.png" alt="Creating the connection">
                         </li>
-                        <li>Wait a short while until it reads “Status: connected” in the main window. Your firewall program may ask if you want to let the F5 VPN program through; you should allow it.
+                        <li><b>Wait</b> a short while until it reads <b><i>“Status: connected”</i></b> in the main window.
+                            <ul>
+                                <li>Your <b>firewall</b> program may ask if you want to let the F5 VPN program through; you should <b>allow it.</b></li>
+                            </ul>
                             <br>
                             <img id="instuctionimg" src="images/win7/win7_17.png" alt="UAC allow">
                             <img id="instuctionimg" src="images/win7/win7_18.png" alt="Connected">
@@ -114,44 +120,66 @@
                 <h3>Step 3 - Mapping the Network Drive</h3>
                 <div>
                     <ul>
-                        <li>Go to the Start menu and open up “computer” or “my computer”</li>
-                        <li>On the top bar, click “Map Network Drive”
+                        <li>Go to the <b>Start menu</b> and open up <b><i>“Computer”</i></b> or <b><i>“My Computer”</i></b></li>
+                        <li>On the <b>top bar</b>, click <b><i>“Map Network Drive”</i></b>
                             <br>
                             <img id="instuctionimg" src="images/win7/win7_20.png" alt="Map button">
                         </li>
-                        <li>In the drive field, pick any letter to represent the drive that is not already used on your computer. For example, most machines have their hard drive labeled C: and a disk drive or USB thumb drive named one of the letters D-H, so those might be bad picks, but any letter from M to Z is usually un-used.</li>
-                        <li>Copy and paste the following text into the folder field, then press “finish”: \\multidrive.iso.mtu.edu\multidrive
-                            <br>
+                        <li>In the <b><i>“Drive”</i></b> field, <b>pick a letter</b> to represent your drive.</li>
+                        <ul>
+                            <li>The <b>default (Z) usually works</b>. It just needs to be a letter that your computer hasn’t named another drive already. For example, most machines have their hard drive labeled C: and a disk drive or USB thumb drive named one of the letters D-H, so those might be bad picks. But <b>any letter from M to Z</b> is usually un-used.</li>
+                        </ul>
+                        <li><b>Copy and paste</b> the following text into the <b><i>“Folder”</i></b> field, then press <b><i>“Finish”</i></b>:
+                            <br><br>
+                            <a style="font-size: 25px; padding-left: 5em"><b>\\multidrive.iso.mtu.edu\multidrive</b></a>
+                            <br><br>
                             <img id="instuctionimg" src="images/win7/win7_21.png" alt="Mapping the drive">
                         </li>
-                        <li>A window may pop up saying “Attempting to connect to \\multidrive.iso.mtu.edu\multidrive”. Usually it happens too quickly to notice, but if it takes longer just wait for it connect.</li>
-                        <li>Windows security will ask for a username and password. Copy and paste the following into the username field, followed by your Michigan tech username after it, with no spaces in between:
-                            <b>MTU\</b>
+                        <li>Windows security will ask for a <b>Username and Password</b>.  Enter <b><i>“MTU\”</i></b> in the <b><i>"Name"</i></b> slot, followed by your <b>Michigan Tech Username</b> (no space between them)
+                            <ul>
+                                <li>
+                                    For example, if your username is <b><i>"username"</i></b>, you would type in <b><i>“MTU\username”</i></b>
+                                </li>
+                                <li>
+                                    Make sure that you use the correct slash mark; it’s <b><i>“\”</i></b>, and <b>not <i>“/”</i></b>.
+                                </li>
+                            </ul>
                         </li>
-                        <li>Enter your Michigan Tech password. We suggest you also check the box marked “remember my credentials” so that you can skip this step in future. Then press “OK”.
+                        <li>Enter your Michigan Tech password, then press “OK”.
+                            <ul>
+                                <li>
+                                    Checking the box to remember your password will make the process faster in the future.
+                                </li>
+                            </ul>
                             <br>
                             <img id="instuctionimg" src="images/win7/win7_23.png" alt="Network drive login">
                         </li>
-                        <li>It will tell you that it is trying to connect. Once it does, you can access your Michigan Tech multidrive by going to the start menu, clicking “computer”, and then clicking on whatever you named the new drive.
+                        <li>
+                            Go to the “Start: menu and click “Computer”
+                        </li>
+                        <li>Select the Drive named “Multidrive” followed by whatever letter you picked for its name.
+                            <ul><li>This will open up your home drive with all your Michigan Tech files.</li></ul>
                             <br>
                             <img id="instuctionimg" src="images/win7/win7_24.png" alt="Multidrive!">
                         </li>
                     </ul>
                 </div>
-                <h3>Reconnecting to the drive</h3>
+                <h3>How to re-connect to your home drive after you’ve got it installed</h3>
                 <div>
+                    After you log out or restart your computer, you will be disconnected from the homedrive.  These steps tell you how to re-connect to your Michigan Tech files without going through the lengthy installation process again.
                     <ul>
                         <li>Click on the F5 Networks VPN Client shortcut</li>
                         <li>The firepass controller should pop up with vpn.mtu.edu already entered; click “connect”</li>
                         <li>Enter your Michigan Tech username and password when asked</li>
-                        <li>After that, go to the folder list on the left. Under “Network Access Controls,” select “Obtain a campus address with MTUCIFS WINS settings (override local WINS settings)” and click the “Create” button</li>
+                        <li>After that, go to the folder list on the left. Under “Network Access Controls,” select “Get an MTU address” and click the “Create” button</li>
                         <li>Wait a short while until it reads “Status: connected” in the main window. Your firewall program may ask if you want to let the F5 VPN program through; you should allow it.</li>
-                        <li>Go to the Start menu and open up “computer” or “my computer”</li>
+                        <li>Go to the Start menu and open up “Computer” or “My Computer”</li>
                         <li>Click on the Multidrive icon to open it. You are connected.
                             <ul>
                                 <li>See "Step 2 - Setting up the Software" to see pictures of these steps if you have trouble</li>
                             </ul>
                         </li>
+                    </ul>
                 </div>
             </div>
         </main>

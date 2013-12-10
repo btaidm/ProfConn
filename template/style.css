@@ -1,132 +1,115 @@
 body {
-	background-color: #F0F0F0;
-	/*background-color: #FDCF09;*/
-	width: 100%;
-	font-family: sans-serif;
+    background-color: #F0F0F0;
+    /*background-color: #FDCF09;*/
+    width: 100%;
+    font-family: sans-serif;
 }
-
-#banner {
-	border-bottom: 2px solid;
-	margin-left: -25px;
-	margin-right: -25px;
-	height: 75px;
-    	vertical-align:middle;
+    li {
+    padding-top: .5em;
+    padding-bottom: .5em;
 }
-
-#banner h1 {
-	float: left;
-	margin-top: -5px;
-	padding-left: 10px;
-    	max-width: 75%;
+    #banner {
+    border-bottom: 2px solid;
+    margin-left: -25px;
+    margin-right: -25px;
+    height: 75px;
+    vertical-align: middle;
 }
-
-#banner p {
-	float: right;
-	padding-right: 10px;
-	
-    
-    vertical-align:middle;
+    #banner h1 {
+    float: left;
+    margin-top: -5px;
+    padding-left: 10px;
+    max-width: 75%;
 }
-
-#banner img {
+    #banner p {
     float: right;
-    vertical-align:middle;
-	padding-right: 10px;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+    #banner img {
+    float: right;
+    vertical-align: middle;
+    padding-right: 10px;
     max-width: 25%;
 }
-
-footer {
-	border-top: 2px solid;
-	text-align: center;
-	margin-left: -25px;
-	margin-right: -25px;
-	margin-bottom: -25px;
+    footer {
+    border-top: 2px solid;
+    text-align: center;
+    margin-left: -25px;
+    margin-right: -25px;
+    margin-bottom: -25px;
 }
-
-main {
+    main {
     margin: 20px;
 }
-
-#imagecenter 
-{
-    text-align:center;
+    #imagecenter {
+    text-align: center;
 }
-
-main div{
+    main div {
     margin: -bottom: 20px;
     vertical-align: middle;
 }
-
-main img {
+    main img {
     display: inline-block;
     vertical-align: middle;
-    margin-left:50px;
-    margin-right:50px;
+    margin-left: 50px;
+    margin-right: 50px;
     max-width: 25%;
 }
-
-#windows {
+    #windows {
     display: inline-block;
     vertical-align: middle;
-    margin-left:50px;
-    margin-right:50px;
+    margin-left: 50px;
+    margin-right: 50px;
     max-width: 25%;
 }
-
-#mac {
+    #mac {
     display: inline-block;
     vertical-align: middle;
-    margin-left:50px;
-    margin-right:50px;
+    margin-left: 50px;
+    margin-right: 50px;
     max-width: 16%;
 }
-
-#instuctionimg {
+    #instuctionimg {
     display: inline-block;
-    vertical-align:middle;
+    vertical-align: middle;
     margin-left: 50px;
     margin-right: 50px;
     margin-top: .25em;
     margin-bottom: 1.5em;
     max-width: 75%;
 }
-
-#instuctionimglong {
+    #instuctionimglong {
     display: inline-block;
-    vertical-align:middle;
+    vertical-align: middle;
     margin-left: 50px;
     margin-right: 50px;
     margin-top: .25em;
     margin-bottom: 1.5em;
     max-width: 25%;
 }
-
-main h2 {
-	
-}
-
-main p {
+    main p {
     text-align: left;
-    position:relative;
+    position: relative;
 }
-
-#wrapper {
-	width:80%;
-	border-radius: 25px;
-	border: 2px solid;
+    #wrapper {
+    width: 80%;
+    border-radius: 25px;
+    border: 2px solid;
     background-image: url("images/noise.png");
-	background-color: #D8D8D8;
-    
-	margin-left: auto;
-	margin-right: auto;
-	padding: 25px;
+    background-color: #D8D8D8;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
 }
-
-#imageurl {
-    text-decoration:none;
+    #imageurl {
+    text-decoration: none;
 }
-
-/* apply a natural box layout model to all elements */
-*, *:before, *:after {
-  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
- }
+    /* apply a natural box layout model to all elements */
+    *,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}

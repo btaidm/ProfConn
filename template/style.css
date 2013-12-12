@@ -13,7 +13,7 @@ ol {
 	counter-reset: item;
 }
 li:before {
-	content: counter(item,".") " ";
+	content: counters(item,".") ") ";
 	counter-increment: item;
 }
 #banner {
@@ -54,7 +54,7 @@ main {
 	text-align: center;
 }
 main div {
-	margin: -bottom: 20px;
+	margin-bottom: 20px;
 	vertical-align: middle;
 }
 main img {
